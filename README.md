@@ -1,6 +1,9 @@
 # A2AirplaneCatapult
 A simple airplane and jet catapult launching script. Default usage is for an aircraft carrier but who's stopping you from using it anywhere else.
 
+## Video Example
+[Video of the script in action](https://www.youtube.com/watch?v=Gc_7P8s7VP4)
+
 ## Install instructions
 1. Clone this repo or press [ME](https://github.com/ZzBombardierzZ/A2AirplaneCatapult/archive/refs/heads/main.zip)
 2. Copy the bombsCatapult folder into your MPMissions\DayZ_Epoch_11.Chernarus\scripts\ folder.
