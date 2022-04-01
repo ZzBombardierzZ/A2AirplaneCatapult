@@ -2,7 +2,7 @@
 A simple airplane and jet catapult launching script. Default usage is for an aircraft carrier but who's stopping you from using it anywhere else.
 
 ## Install instructions
-1. Download this repo
+1. Clone this repo or press [ME](https://github.com/ZzBombardierzZ/A2AirplaneCatapult/archive/refs/heads/main.zip)
 2. Copy the bombsCatapult folder into your MPMissions\DayZ_Epoch_11.Chernarus\scripts\ folder.
 3. In DayZ_Epoch_11.Chernarus\init.sqf, add `execVM "scripts\bombsCatapult\init.sqf";` under the last `if (!isDedicated) then {`. You can also search for `execVM "\z\addons\dayz_code\system\antihack.sqf";` and add it above there.
 4. You're all set! If you wish to, you can edit `_catapultPlatformClasses` in the bombsCatapult\init.sqf to include more classnames to launch from.
