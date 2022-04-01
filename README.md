@@ -12,8 +12,8 @@ A simple airplane and jet catapult launching script. Default usage is for an air
 
 ### Don't have an aircraft carrier? It's easy!
 1. Unpack your dayz_server.pbo
-2. Go to init\server_functions
-3. under `call compile preprocessFileLineNumbers "\z\addons\dayz_code\loot\init.sqf";` add `[] execVM "z\addons\dayz_server\mapAddons\AircraftCarrier.sqf";`
+2. Go to init\server_functions.sqf
+3. Under `call compile preprocessFileLineNumbers "\z\addons\dayz_code\loot\init.sqf";` add `[] execVM "z\addons\dayz_server\mapAddons\AircraftCarrier.sqf";`
 4. Create a folder named `mapAddons` in the root of dayz_server and then create a file named `AircraftCarrier.sqf`
 5. Inside AircraftCarrier.sqf, add the following:
 ```
