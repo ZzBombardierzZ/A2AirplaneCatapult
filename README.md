@@ -36,3 +36,6 @@ local _ship =
 ```
 6. Make any changes to the position and direction that you may want.
 7. Pack the pbo and it should be good to go.
+
+#### Notes
+Feel free to edit anything to your desire. I don't remember where I got the AircraftCarrier.sqf script from, but I do not claim credit for that part.
