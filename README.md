@@ -8,7 +8,14 @@ A simple airplane and jet catapult launching script. Default usage is for an air
 1. Clone this repo or press [ME](https://github.com/ZzBombardierzZ/A2AirplaneCatapult/archive/refs/heads/main.zip)
 2. Copy the bombsCatapult folder into your MPMissions\DayZ_Epoch_11.Chernarus\scripts\ folder.
 3. In DayZ_Epoch_11.Chernarus\init.sqf, add `execVM "scripts\bombsCatapult\init.sqf";` under the last `if (!isDedicated) then {`. You can also search for `execVM "\z\addons\dayz_code\system\antihack.sqf";` and add it above there.
-4. You're all set! If you wish to, you can edit `_catapultPlatformClasses` in the bombsCatapult\init.sqf to include more classnames to launch from.
+4. You're all set!
+
+## Config
+To edit the config, open `bombsCatapult\init.sqf` and see the 3 lines below "`//General Settings`"
+- `_catapultPlatformClasses` is used to change what objects you have to be near to launch.
+- `_maxDistance` is the maximum distance you can be to the object to have the option to launch.
+- `_cycleTime` is how frequently the script checks for the nearby object. Setting this too low will decrease performance on the client.
+- Do not edit `_lastVehicle`
 
 ### Don't have an aircraft carrier? It's easy!
 1. Unpack your dayz_server.pbo
